@@ -60,3 +60,16 @@ Puedes usar este usuario de prueba para iniciar sesión:
 
 Email: javier@example.com
 Password: 123456
+
+**Consideraciones a tomar **
+Arquitectura basada en principios SOLID: controladores delgados, uso de Services y Repositories.
+
+Validaciones centralizadas en Form Requests.
+
+Respuestas estandarizadas con Laravel API Resources.
+
+Errores manejados de forma global con códigos HTTP apropiados.
+
+Listados paginados automáticamente (?page=1, ?per_page=10).
+
+El proyecto está preparado para extender con otros módulos como mascotas, políticas, Swagger, testing y más.
